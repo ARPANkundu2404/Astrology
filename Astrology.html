@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AStrology</title>
+    <link rel="stylesheet" href="Astrology.css">
+</head>
+
+<body>
+<h1>Zodiac Sign Compatibility Calculator</h1>
+<br>
+<div class="Zodiaccontainer">
+<form name="zodiacform" onsubmit="return CheckZodiacSign()">
+<table>
+<tr>
+<td>Select first Sign: </td>
+<td>
+<select name="Sign1" id="Sign1">
+<option value="Aries">Aries</option>
+<option value="Taurus">Taurus</option>
+<option value="Gemini">Gemini</option>
+<option value="Cancer">Cancer</option>
+<option value="Leo">Leo</option>
+<option value="Virgo">Virgo</option>
+<option value="Libra">Libra</option>
+<option value="Scorpio">Scorpio</option>
+<option value="Sagittarius">Sagittarius</option>
+<option value="Capricorn">Capricorn</option>
+<option value="Aquarius">Aquarius</option>
+<option value="Pisces">Pisces</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Select second Sign</td>
+<td>
+<select name="Sign2" id="Sign2">
+<option value="Aries">Aries</option>
+<option value="Taurus">Taurus</option>
+<option value="Gemini">Gemini</option>
+<option value="Cancer">Cancer</option>
+<option value="Leo">Leo</option>
+<option value="Virgo">Virgo</option>
+<option value="Libra">Libra</option>
+<option value="Scorpio">Scorpio</option>
+<option value="Sagittarius">Sagittarius</option>
+<option value="Capricorn">Capricorn</option>
+<option value="Aquarius">Aquarius</option>
+<option value="Pisces">Pisces</option>
+</select>
+</td>
+</tr>
+<tr>
+<td colspan="2"><input type="button" value="Check Compatibility" onclick="Result()"></td>
+</tr>
+</table>
+</form>
+<br>
+<div id="result"></div>
+</div>
+<script src="Astrology.js"></script>
+</body>
+</html>
